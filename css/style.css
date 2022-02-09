@@ -1,15 +1,27 @@
 :root {
     --color1: #334249;
-    --color2: #ff7088;
+    --color2: #294d6e;
+    --color3: #eee;
 }
+/*#ff7088*/
 header, footer, section {
     padding: 30px 0;
 }
 
-.header-bg {
- display: block;
- height: 450px;
- background-image: url("../img/pattern2.png")
+body {
+    background: url("../img/волна.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.forwhom {
+    background: url("../img/жёлтый.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 30px 30px 30px;
 }
 
 /*header, footer {
@@ -63,8 +75,16 @@ background-color: var(--color2);
     left: 0;
     width: 100%;
     height: 100%; }
+
+.navbar {
+    padding: 10px;
+}
 .about, .shedule {
-    background-color: #eee ;
+  background-color: #eee ;
+  margin: 30px 30px 30px;
+}
+.aboutus {
+    padding: 25px;
 }
 .about i{
 font-size: 25px;
@@ -86,11 +106,7 @@ align-items: center;
     background-color: var(--color1);
     margin: 15px auto 30px;
 }
-/*Контакты*/
-.forwhom h5 {
-padding: 50px;
-border: 3px solid var(--color1);
-}
+
     /*Цвет*/
 .color1 {
     color: var(--color1)
@@ -98,11 +114,24 @@ border: 3px solid var(--color1);
 .color2 {
     color: var(--color2)
 }
+.color3 {
+    color: var(--color3)
+}
 .bg1 {
     background-color: var(--color1)
     }
 .bg2 {
     background-color: var(--color2)
+}
+h2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+h4 {
+   font-size: 20px;
+   font-weight: 200;
+   letter-spacing: 2px;
 }
 
 
