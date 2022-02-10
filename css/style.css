@@ -83,13 +83,18 @@ background-color: var(--color2);
   background-color: #eee ;
   margin: 30px 30px 30px;
 }
+.aboutus h4{
+    padding: 70px;
+    border: 1px solid var(--color2);
+}
 .aboutus {
-    padding: 25px;
+    margin: 30px;
 }
 .about i{
 font-size: 25px;
 color: var(--color2)
 }
+
 .itd_circle {
 margin: 0 auto 15px;
 width: 70px;
@@ -124,14 +129,20 @@ align-items: center;
     background-color: var(--color2)
 }
 h2 {
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
-    font-size: 25px;
+    font-size: 30px;
 }
 h4 {
    font-size: 20px;
-   font-weight: 200;
+   font-weight: 300;
    letter-spacing: 2px;
+}
+.iframe {
+    margin: 25px;
+    position: center;
+    min-width: 75%;
+    max-width: 100%; ; 
 }
 
 
