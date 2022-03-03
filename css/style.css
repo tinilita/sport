@@ -18,7 +18,7 @@ header {
 }
 
 body {
-    background: url("../img/волна.jpg") no-repeat center center fixed;
+  background: url("../img/t1.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -30,8 +30,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 30px 30px 30px;
-    opacity: 0.6;
+    margin: 70px 30px 70px;
+    background: rgba(238, 238, 238, 0.7);
 }
 
 /*header, footer {
@@ -96,12 +96,13 @@ background-color: var(--color2);
     letter-spacing: 2px;
 }
 .about, .shedule {
-  background-color: #eee ;
-  margin: 30px 30px 30px;
+  background-color: #eee;
+  margin: 70px 30px 70px;
 }
 .aboutus h4{
     padding: 70px;
     border: 1px solid var(--color2);
+    opacity: 1;
 }
 .aboutus {
     margin: 30px;
@@ -175,5 +176,53 @@ h4 {
     align-items: center;
     align-content: center; 
     justify-content: center; 
-    overflow: flex;   
+    overflow: flex;
 }
+
+
+
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: var(--color2);
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: var(--color3);
+  }
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
